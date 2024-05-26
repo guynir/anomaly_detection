@@ -8,7 +8,11 @@ Anomalies are classified as data points with measurement points, which is beyond
 For example, given a set of device data points reporting on device temperature, if one of the events
 contains temperature which is beyond a standard deviation, the event is reported as an anomaly.
 
-## Hold to build and run
+## Requirements
+
+Java 17 or above.
+
+## How to build and run
 
 To build the project, simply use _gradlew_ wrapper via the command line:
 
